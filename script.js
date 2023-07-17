@@ -33,5 +33,5 @@ function deleteThis(){
 }
 
 function makeYellow(){
-    $('.redBox').addClass("yellowBox")
+    $(this).closest('div').addClass("yellowBox")
 }
