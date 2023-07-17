@@ -29,7 +29,7 @@ function addCount(){
 
 function deleteThis(){
     console.log('in deleteThis')
-    $('.redBox').remove()
+    $(this).closest('div').remove()
 }
 
 function makeYellow(){
